@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import Aux from 'react-aux';
 
-import LandingPage from '../containers/LandingPage';
+import BlogDetailPage from '../containers/BlogDetailPage';
+import BlogOverviewPage from '../containers/BlogOverviewPage';
 
 export default class App extends Component {
     render() {
         return (
             <BrowserRouter >
-                <Route path='/' component={LandingPage} />
+                <Switch>
+                    <Route path='/blog/:slug' component={BlogDetailPage} />
+                    <Route path='/blog' component={BlogOverviewPage} />
+                </Switch>
             </BrowserRouter>
         )
     }

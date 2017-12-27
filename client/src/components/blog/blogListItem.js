@@ -2,10 +2,10 @@ import React from 'react'
 
 import styles from './blogListItem.module.css';
 
-const BlogListItem = ({ blog }) => {
+const BlogListItem = ({ blog, onClick }) => {
     let { displayImg, title, views } = blog
     return (
-        <li className={styles.BlogListItem}>
+        <li onClick={onClick} className={styles.BlogListItem}>
             <img src={displayImg} alt={title} />
             <div className={styles.ItemDetails}>
                 <span>{title}</span><span>{views}</span>

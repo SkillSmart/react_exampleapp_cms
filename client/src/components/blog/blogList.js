@@ -3,11 +3,13 @@ import styles from './blogList.module.css';
 
 import BlogListItem from './blogListItem';
 
-const BlogList = ({ blogs }) => {
+const BlogList = ({ blogs, onClick }) => {
     return (
         <div className={styles.BlogList}>
             <ul className={styles.List}>
-                {blogs.map(blog => <BlogListItem blog={blog} />)}
+                {blogs.map(blog => <BlogListItem 
+                                    onClick={() => onClick(blog.title)}
+                                    blog={blog} />)}
             </ul>
         </div>
     )
