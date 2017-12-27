@@ -1,0 +1,10 @@
+.BlogListItem {
+    /* flex: 0 0 100%; */
+    padding: 0;
+    margin: 0;
+    border: 1px solid green;
+}
+
+.ItemDetails {
+    margin-top: -45px;
+}

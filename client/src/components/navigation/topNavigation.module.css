@@ -1,0 +1,36 @@
+.navWrapper {
+    display: flex;
+};
+
+.navLogo {
+    border: 5px solid green;
+}
+
+.navBar {
+}
+
+ul {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 25px;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+ li:hover {
+    border-bottom: 2px solid blue;
+}
+
+a :visited {
+    color: inherit;
+}

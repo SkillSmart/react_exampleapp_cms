@@ -1,0 +1,26 @@
+.ItemWrapper {
+    flex: 0 0 100%;
+    padding: 20px;
+}
+
+.UserDisplay {
+    float: left;
+    flex-direction: column;
+    width: 20%;
+}
+
+.UserDisplay img {
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.UserDisplay span {
+    font-size: 14px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.Comment {
+    width: 70%;
+    float: left;
+}

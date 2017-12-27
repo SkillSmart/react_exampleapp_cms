@@ -18,7 +18,9 @@
   "homepage": "https://github.com/SkillSmart/react_exampleapp_cms#readme",
   "dependencies": {
     "hapi": "^17.2.0",
-    "mongoose": "^4.13.7"
+    "mongoose": "^4.13.7",
+    "react-aux": "^1.1.0",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
