@@ -1,0 +1,27 @@
+/* Left aligned section display */
+
+.LeftAligned {
+}
+
+/* Right aligned section display */
+.RightAligned {
+    text-align: right;
+}
+
+/* General Styles for Section Content */
+.Header {
+}
+
+.Body {
+    width: 65%;
+}
+
+.SectionImg {
+
+}
+
+.SectionHeader {
+    position: relative;
+    top: 20%;
+}
+

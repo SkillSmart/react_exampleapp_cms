@@ -1,0 +1,21 @@
+.BlogTile {
+    padding: 0;
+    margin:5px;
+    max-width: 20%;
+    border: 1px solid lightgrey;
+}
+
+.HeaderImg {
+    max-width: 100%;
+}
+
+.BlogTitle {
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.Body {
+    padding: 0px 20px;
+    margin: 0;
+
+}
